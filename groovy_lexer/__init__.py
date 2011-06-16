@@ -36,7 +36,7 @@ class GroovyLexer(RegexLexer):
             (r'/\*.*?\*/', Comment.Multiline),
             (r'@[a-zA-Z_][a-zA-Z0-9_\.]*', Name.Decorator),
             (r'(assert|break|case|catch|continue|default|do|else|finally|for|'
-             r'if|goto|instanceof|new|return|switch|this|throw|try|while)\b',
+             r'if|goto|instanceof|new|return|switch|this|throw|try|while|in|as)\b',
              Keyword),
             (r'(abstract|const|enum|extends|final|implements|native|private|'
              r'protected|public|static|strictfp|super|synchronized|throws|'
